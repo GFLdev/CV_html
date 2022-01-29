@@ -1,5 +1,6 @@
 body {
     font-family: Cambria;
+    background-color: #f7f1f0;
 }
 .center {
     text-align: center;
@@ -10,14 +11,13 @@ body {
     font-family: Arial;
 }
 #contact {
-    background-color: #1c844c;
-    color: white;
     width: 100%;
     font-size: 32px;
     padding-top: 30px;
     padding-bottom: 30px;
     padding-right: 18%;
     padding-left: 18%;
+    align-items: center;
 }
 .td-right {
     text-align: left;
@@ -25,35 +25,57 @@ body {
 .td-left {
     text-align: right;
 }
-td {
-    width: 50%;
+#body {
+    padding-left: 10%;
+    padding-right: 10%;
 }
 #inf {
-    font-size: 22px;
+    font-size: 28px;
     text-align: justify;
 }
-#hab {
-    font-size: 22px;
+.item {
+    margin-top: 15px;
+    height: 60px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10%;
+    font-size: 32px;
+    background-color: #c3a6a0;
+    margin-left: 15%;
+    margin-right: 15%;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
 }
 #edu {
     font-size: 22px;
+    background-color: #a15c38;
+    color: white;
+    padding-top: 15px;
+    padding-bottom: 15px;
 }
 .list {
     list-style-type: none;
+    font-size: 22px;
+}
+.li-edu {
+    display: inline-block;
+    padding-right: 3%;
+    padding-left: 3%;
 }
 a:link {
     text-decoration: none;
-    color: white;
+    color: #000;
 }
 a:visited {
     text-decoration: none;
-    color: white;
+    color: #000;
 }
 a:hover {
     text-decoration: none;
-    color: white;
+    color: #000;
 }
 a:active {
     text-decoration: none;
-    color: white;
+    color: #000;
 }
