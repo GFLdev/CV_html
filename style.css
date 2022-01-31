@@ -12,21 +12,14 @@ body {
     font-size: 60px;
 }
 #contact {
-    width: 100%;
+    width: 95%;
     font-size: 32px;
     padding-top: 30px;
     padding-bottom: 30px;
     padding-right: 18%;
-    padding-left: 18%;
-    align-items: center;
-    text-align: center;
+    padding-left: 25%;
 }
-.td-right {
-    text-align: left;
-    width: 50%;
-}
-.td-left {
-    text-align: right;
+td {
     width: 50%;
 }
 #body {
