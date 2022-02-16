@@ -1,0 +1,8 @@
+:root{
+    --bg: #0c1011;
+    --fg: #BCCEC8;
+}
+a:link, a:visited, a:hover, a:active{
+    text-decoration: none;
+    color: var(--fg);
+}
